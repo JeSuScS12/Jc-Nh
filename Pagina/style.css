@@ -1,3 +1,33 @@
 body{
-    background-color: blueviolet;
+    background-color: grey;
 }
+
+.Menu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menuNav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.menuNav > li > a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+
+}
+
+li:hover{
+    color:yellow;
+}
+
